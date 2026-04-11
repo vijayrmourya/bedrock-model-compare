@@ -1,0 +1,10 @@
+# boto3-helpers — sibling package (editable install, stays in sync with local changes)
+-e ../boto3-helpers
+
+# bedrock-tui-helpers — shared model data and TUI widgets
+-e ../bedrock-tui-helpers
+
+# Direct dependencies
+boto3
+rich
+jinja2
