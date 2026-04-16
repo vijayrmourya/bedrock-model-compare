@@ -73,8 +73,8 @@ This project depends on two sibling libraries that live in the same parent direc
 
 | Library | What it provides | Repository |
 |---------|-----------------|------------|
-| [boto3-helpers](../boto3-helpers/) | Cached boto3 client factory, Bedrock control/runtime API wrappers | Sibling directory |
-| [bedrock-tui-helpers](../bedrock-tui-helpers/) | Model pricing (80+ models), listing, filtering, deduplication, invocability probe | Sibling directory |
+| [boto3-helpers](https://github.com/vijayrmourya/boto3-helpers) | Cached boto3 client factory, Bedrock control/runtime API wrappers | Sibling directory |
+| [bedrock-tui-helpers](https://github.com/vijayrmourya/bedrock-tui-helpers) | Model pricing (80+ models), listing, filtering, deduplication, invocability probe | Sibling directory |
 
 Third-party dependencies:
 
@@ -97,8 +97,8 @@ The sibling libraries must be present in the same parent directory:
 ```
 parent-directory/
 ├── bedrock-model-compare/    ← this project
-├── boto3-helpers/            ← sibling library
-└── bedrock-tui-helpers/      ← sibling library
+├── [boto3-helpers](https://github.com/vijayrmourya/boto3-helpers)/            ← sibling library
+└── [bedrock-tui-helpers](https://github.com/vijayrmourya/bedrock-tui-helpers)/      ← sibling library
 ```
 
 ### Set up the environment
@@ -181,7 +181,7 @@ python3 main.py
 
 ## Model probe
 
-On first launch, the tool probes all available models to find which ones your account can invoke. Results are cached in `~/.cache/bedrock-tui-helpers/.probe_results.json` and shared with all projects that use [bedrock-tui-helpers](../bedrock-tui-helpers/).
+On first launch, the tool probes all available models to find which ones your account can invoke. Results are cached in `~/.cache/bedrock-tui-helpers/.probe_results.json` and shared with all projects that use [bedrock-tui-helpers](https://github.com/vijayrmourya/bedrock-tui-helpers).
 
 Inaccessible models are automatically hidden from the wizard — no flags or configuration needed.
 
