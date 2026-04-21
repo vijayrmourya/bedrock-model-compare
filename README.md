@@ -310,3 +310,14 @@ Detailed design docs are in the [decisions/](decisions/) folder:
 - [architecture.md](decisions/architecture.md) — system diagrams, request flow, caching layers
 - [explanation.md](decisions/explanation.md) — design rationale for every module
 - [lld.md](decisions/lld.md) — implementation spec: data structures, error handling, extension points
+
+---
+
+## Contributing
+
+Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to report bugs, suggest features, or submit pull requests.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for the full text. When reusing this software, please ensure that the original copyright notice and attribution to **Vijay Mourya** are included.
+
